@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/four-card-feature-section-y7l1nk6ieU)
-- Live Site URL: [Vercel](https://fourcardfeature-nine.vercel.app/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/ping-coming-soon-page-f9evyC_VUS)
+- Live Site URL: [Vercel](https://pingcomingsoonpage-pi.vercel.app/)
 
 ## My process
 
