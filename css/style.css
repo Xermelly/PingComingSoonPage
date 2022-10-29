@@ -1,0 +1,85 @@
+@import url(./components.css);
+@import url(./global.css);
+@import url(./form.css);
+
+.container {
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  max-width: 23.4375rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-bg {
+  padding: 3.75rem 0;
+}
+.content-container h1,
+.content-container span {
+  font-size: 1.75rem;
+  margin-bottom: 0.9375rem;
+}
+.content-container p {
+  font-size: 1rem;
+}
+picture {
+  animation: anim 1s ease-in;
+}
+.social-list {
+  display: flex;
+  gap: 1.25rem;
+  margin-bottom: 1.875rem;
+  justify-content: center;
+  align-items: center;
+}
+.social-list li {
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  padding: 0.625rem 0.625rem;
+  text-align: center;
+  transition: 0.5s;
+}
+.social-list li:hover {
+  transform: rotate(360deg);
+}
+.social-list li img {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.footer-bg {
+  margin-top: 5.625rem;
+  padding: 1.875rem;
+}
+.footer-bg p {
+  font-size: 0.75rem;
+}
+@media (min-width: 23.5rem) {
+  .container {
+    max-width: 90rem;
+  }
+  .header-bg {
+    padding: 3.75rem 0 1.875rem 0;
+  }
+  .content-container h1,
+  .content-container span {
+    font-size: 2.5rem;
+  }
+  picture img {
+    width: 37.5rem;
+  }
+  .footer-bg {
+    margin-top: 3.75rem;
+  }
+}
+@keyframes anim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

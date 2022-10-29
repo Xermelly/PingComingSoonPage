@@ -1,0 +1,34 @@
+:root {
+  --clr-pmry-blue: hsl(223, 87%, 63%);
+  --clr-sdry-paleBlue: hsl(223, 100%, 88%);
+  --clr-sdry-lightRed: hsl(354, 100%, 66%);
+  --clr-ntrl-gray: hsl(0, 0%, 59%);
+  --clr-ntrl-vdkBlue: hsl(209, 33%, 12%);
+  --font-libre-300: 300 1rem/1 "Libre Franklin", sans-serif;
+  --font-libre-600: 600 1rem/1 "Libre Franklin", sans-serif;
+  --font-libre-700: 700 1rem/1 "Libre Franklin", sans-serif;
+}
+.color-pmry-blue {
+  color: var(--clr-pmry-blue);
+}
+.color-sdry-paleBlue {
+  color: var(--clr-sdry-paleBlue);
+}
+.color-sdry-lightRed {
+  color: var(--clr-sdry-lightRed);
+}
+.color-ntrl-gray {
+  color: var(--clr-ntrl-gray);
+}
+.color-ntrl-vdkBlue {
+  color: var(--clr-trl-vdkBlue);
+}
+.font-libre-300 {
+  font: var(--font-libre-300);
+}
+.font-libre-600 {
+  font: var(--font-libre-600);
+}
+.font-libre-700 {
+  font: var(--font-libre-700);
+}
